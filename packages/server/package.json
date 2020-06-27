@@ -1,0 +1,16 @@
+{
+  "name": "timer-bot-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^9.0.5"
+  },
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="header">Hello World!</h1>
+    <div id="buttons-row" class="buttons-row">
+    </div>
+    <div>
+      <label>Project</label>
+      <input id="project" type="text">
+    </div>
+    <div>
+      <label>Ticket</label>
+      <input id="ticket" type="text">
+    </div>
+    <input type="button" id="save-and-start" value="Save and start timer">
+  </body>
+</html>

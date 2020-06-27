@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: grey;
+  white-space: pre-wrap;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button.active {
+  background-color: green;
+}
+
+.buttons-row {
+  display: flex;
+  flex-direction: row;
+}
